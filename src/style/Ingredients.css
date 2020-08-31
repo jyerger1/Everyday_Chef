@@ -1,0 +1,53 @@
+.shopping {
+    display: flex;
+	flex-direction: column;
+	padding: 1em 1em;
+	
+	
+}
+.shopping:hover{
+	background-color: lightgrey;
+}
+
+.shopping__item {
+	display: flex;
+align-items: flex-start;
+	position: relative;
+	padding: 5px 5px;
+}
+.shopping__count {
+	/*padding: 0rem 0rem;*/
+	cursor: pointer;
+	display: flex;
+	
+}
+
+
+.shopping__count input {
+	font-family: inherit;
+	font-size: 1.2rem;
+	text-align: center;
+	width: 3.7rem;
+}
+.shopping__count input:focus {
+	outline: none;
+	/*background-color: #f2efee;*/
+}
+.shopping__count p {
+	font-size: 1rem;
+	padding-left: 3px;
+}
+.shopping__description {
+	flex: 1;
+	font-size: 1rem;
+	float:left;
+}
+.shopping__delete {
+	visibility: hidden;
+	transition: 0.5s;
+}
+.shopping__item:hover .shopping__delete {
+	opacity: 1;
+	visibility: visible;
+}
+

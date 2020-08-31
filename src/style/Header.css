@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+
+.header-container {
+  height: auto;
+}
+
+.heading__link:hover {
+  text-decoration: none;
+}
+
+.heading__main-title {
+  font-size: 4rem;
+}
+
+.favorites-h1 {
+  font-family: "Baloo Tamma 2", cursive;
+  font-size: 28px;
+  color: #092242;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.chef-red {
+  color: #d73434;
+}
+
+.hat-icon-red {
+  color: #d73434;
+  /* color: #092242; */
+}
+
+.heading__link-title {
+  font-family: "Baloo Tamma 2", cursive;
+  font-size: 28px;
+  color: #092242;
+}
+
+.signout {
+  border: none;
+  background-color: white;
+}
+
+@-webkit-keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+@keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+.pop {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.pop:hover,
+.pop:focus,
+.pop:active {
+  text-decoration: none;
+  -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}

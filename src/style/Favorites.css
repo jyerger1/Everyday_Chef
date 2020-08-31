@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&family=Recursive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500&family=Recursive&display=swap");
+
+.app-container {
+  height: 40em;
+}
+
+#fav-logo {
+  font-family: Playball;
+  color: #d73434;
+  font-size: 85px;
+  text-shadow: 2px 2px 2px rgba(15, 34, 64, 1);
+}
+
+#username {
+  padding-top: 1.2em;
+  font-family: Playball;
+  color: #092242;
+  font-size: 35px;
+}
+
+#heart {
+  padding-top: 20px;
+  font-size: 80px;
+  margin-top: 10px;
+  color: #092242;
+}
+
+#heart:hover {
+  color: #d73434;
+}

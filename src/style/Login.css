@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
+.logo {
+  font-family: Playball;
+  color: #092242;
+  font-size: 4rem;
+}
+
+.red-chef {
+  color: red;
+}
+
+.login__title {
+  text-align: center;
+  margin: 1rem;
+  padding-bottom: 1rem;
+}
+
+.chef-hat {
+  color: #d73434;
+  font-size: 4rem;
+}
+
+.login-container {
+  height: 87vh;
+  display: flex;
+  background-color: aliceblue;
+  position: relative;
+}
+
+#head {
+  color: #092242;
+  font-family: "Playball", cursive;
+}
+
+.login {
+  position: relative;
+}
+
+.login-form,
+.signup-items {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-heading,
+.signup-heading {
+  font-size: 3rem;
+  color: #092242;
+  margin: 2rem;
+}
+
+.button-div {
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+/* sign up page*/
+
+.info {
+  color: white;
+  padding-bottom: 15%;
+}
+
+.signup {
+  background-color: tomato;
+  text-align: center;
+  padding-top: 10%;
+}
+
+/* animation for signup*/
+.tracking-in-expand-fwd {
+  -webkit-animation: tracking-in-expand-fwd 0.8s
+    cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+}
+
+@-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+/* animation ends   */
+
+.signup {
+  background-color: tomato;
+  text-align: center;
+  padding-top: 10%;
+}

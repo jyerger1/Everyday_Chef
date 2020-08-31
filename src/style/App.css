@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&family=Recursive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500&family=Recursive&display=swap");
+
+body {
+  background-color: white;
+  margin: auto;
+}
+
+hr {
+  border-color: #092242;
+}
+
+.logo {
+  font-family: Playball;
+  color: #092242;
+  text-align: center;
+}
+
+.app-container {
+  border-style: solid;
+  border-color: #d73434;
+  border-width: 6px;
+  min-width: 35em;
+  max-width: 85em;
+  height: auto;
+  margin: auto;
+
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.61);
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.61);
+}
+
+.inner-row {
+  margin-bottom: -20px;
+}
+
+.header-div {
+  text-align: center;
+}
+
+.recipes__heading {
+  padding-top: 28px;
+  font-size: 2.5rem;
+  font-family: Playball;
+
+  color: #092242;
+}
+.middle__heading {
+  font-size: 4rem;
+  font-family: Playball;
+  text-shadow: 2px 2px 2px rgba(15, 34, 64, 1);
+  color: #d73434;
+}
+
+.ingredient__heading {
+  padding-top: 28px;
+  color: #092242;
+  font-family: Playball;
+  font-size: 2.5rem;
+}
+
+.main-row {
+  margin: 30px;
+}
+
+.recipes-div {
+  text-align: center;
+  max-height: 50em;
+  overflow: scroll;
+  border: 2.25px solid #092242;
+  min-height: 20em;
+}
+
+.middle-div {
+  text-align: center;
+  border: 2.25px solid #092242;
+  min-height: 50em;
+}
+
+.ingredients-div {
+  text-align: center;
+  max-height: 50em;
+  overflow: scroll;
+  border: 2.25px solid #092242;
+  min-height: 20em;
+}
+
+.footer-div {
+  text-align: center;
+  margin: 25px;
+}
+
+/* Loader CSS */
+
+.loader {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.loader div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #092242;
+  border-radius: 50%;
+  animation: loader 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #092242 transparent transparent transparent;
+}
+.loader div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.loader div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.loader div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

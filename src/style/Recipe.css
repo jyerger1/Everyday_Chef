@@ -1,0 +1,42 @@
+.recipe {
+  background-color: #f3f6f8;
+  padding-bottom: 15px;
+}
+.recipe__fig {
+  position: relative;
+}
+
+.recipe__img {
+  width: 100%;
+  height: 100%;
+}
+.recipe__title {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  color: #fff;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: Playball;
+}
+.recipe__title-span {
+  color: white;
+  text-shadow: 2px 2px 2px rgba(15, 34, 64, 1);
+
+}
+.recipe__details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.recipe__info {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  display: flex;
+}
+
+.recipe__info-data {
+  margin-right: 0.5rem;
+}

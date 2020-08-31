@@ -1,0 +1,36 @@
+.recipes {
+	width: 100%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 1em 1em;
+}
+
+.recipes:hover {
+	background-color: lightgrey;
+}
+
+.recipes-container {
+	display: flex;
+}
+
+.recipes-image {
+	height: 65px;
+	border: 2px solid grey;
+	border-radius: 50%;
+}
+
+.recipes-text-container {
+	padding: 0.5em;
+}
+
+.recipes-title {
+	color: red;
+	font-size: 17px;
+	text-align: left;
+}
+
+.recipes-publisher {
+	color: black;
+	font-size: 14px;
+	text-align: left;
+}
